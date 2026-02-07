@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>RoyalPet</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="imagens/logoroyalpetatt.png" alt="logo" /></a>
+    </div>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="agendamento.html">Agendamentos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <section class="agendamentos-cliente">
+
+  <div class="coluna-esquerda">
+
+    <div class="container-benificios">
+      <h2>
+        Benefícios do Royal Pet Shop<br>
+        Cuidado de verdade, como seu pet merece.
+      </h2>
+    </div>
+
+    <div class="container-lista-qualidades">
+      <ul>
+        <li>Profissionais treinados e apaixonados por animais</li>
+        <li>Ambiente limpo, seguro e confortável</li>
+        <li>Produtos de alta qualidade e marcas selecionadas</li>
+        <li>Atendimento personalizado para cada pet</li>
+        <li>Seu pet tratado como parte da família</li>
+      </ul>
+    </div>
+
+    <div class="container-beneficos-agendamento">
+      <h2>Por que agendar online?</h2>
+    </div>
+
+    <div class="container-lista-agendamento">
+      <ul>
+        <li>Evita filas e espera desnecessária</li>
+        <li>Atendimento mais rápido</li>
+        <li>Garantia de vaga no horário desejado</li>
+        <li>Controle fácil do seu agendamento</li>
+        <li>Menos estresse para o seu pet</li>
+      </ul>
+    </div>
+
+  </div>
+    
+    <div class="formulario-container">
+        <h1>Agendamentos</h1>
+      <form>
+
+        <label for="nome">Nome*</label>
+        <input type="text" name="name" id="nome" placeholder="Seu Nome" />
+
+        <label for="telefone">Telefone*</label>
+        <input type="tel" name="tel" id="telefone" placeholder="Seu Contato" />
+
+        <label for="email">Email*</label>
+        <input type="email" name="email" id="email" placeholder="Seu email" />
+
+        <label for="nomepet">Nome do Pet*</label>
+        <input type="text" name="petname" id="nomepet" placeholder="Nome do pet" />
+
+        <label for="data">Data*</label>
+        <input type="date" name="date" id="data" />
+
+        <label for="hora">Hora*</label>
+        <input type="time" name="hora" id="hora" />
+
+        <label for="servico">Serviço*</label>
+        <select name="servico" id="servico">
+          <option value="">Selecione um serviço</option>
+          <option value="banho">Banho</option>
+          <option value="tosa">Tosa</option>
+          <option value="banho_tosa">Banho e Tosa</option>
+          <option value="consulta">Consulta Veterinária</option>
+          <option value="vacina">Vacinação</option>
+        </select>
+
+        <a class="container-confirmacao" href="confirmacao.html">Agendar</a>
+
+      </form>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer-itens">
+      <img src="imagens/logoroyalpetatt.png">
+      <p>© 2026 Royal Pet — Projeto demonstrativo.</p>
+      <p>Raccoon City</p>
+    </div>
+  </footer>
+
+</body>
+</html>
